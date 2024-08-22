@@ -5,8 +5,8 @@ body {
 }
 
 header {
-  display: flex;
-  flex-direction: column;
+  display: inline-block;
+
   align-items: left;
   background: linear-gradient(135deg, #34C759 0%, #4567b7 100%);
   color: #FFFFFF;
