@@ -62,28 +62,29 @@ form button {
 
 .contact-info {
   margin-top: 30px;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 .contact-info h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 16px;
+  margin-bottom: 5px;
   color: #333;
+  font-weight: bold;
 }
 
 .contact-info p {
-  font-size: 18px;
-  margin-bottom: 20px;
+  font-size: 14px;
+  margin-bottom: 10px;
   color: #666;
 }
 
 @media (max-width: 768px) {
   .contact-info {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 }
-
 
     </style>
 </head>
