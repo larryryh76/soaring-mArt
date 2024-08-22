@@ -119,7 +119,9 @@ nav a:active {
   color: rgb(193, 193, 193);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
+.how-it works {
+  margin-top: 200px;
+}
 .steps {
   display: flex;
   flex-direction: column;
