@@ -282,6 +282,26 @@ form button {
         </div>
     </footer>
 
+<script>
+    const mediaQuery = window.matchMedia("(min-width: 768px)");
 
+if (mediaQuery.matches) {
+  // Apply styles for tablet and small desktops
+  document.body.style.fontSize = "18px";
+  document.body.style.padding = "20px";
+} else {
+  // Apply default styles
+  document.body.style.fontSize = "16px";
+  document.body.style.padding = "10px";
+}
+
+mediaQuery.addEventListener("change", (e) => {
+  if (e.matches) {
+    // Apply styles for tablet and small desktops
+  } else {
+    // Apply default styles
+  }
+});
+</script>
 </body>
 </html>
