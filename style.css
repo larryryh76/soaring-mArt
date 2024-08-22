@@ -84,7 +84,7 @@ nav a:active {
   filter: blur(10px);
 }
 
-To make the text wider, you can adjust the top and left properties, and also add a width property to the .hero-text class. Here's an updated version:
+
 
 
 .hero-text {
