@@ -5,9 +5,8 @@ body {
 }
 
 header {
-  display: inline-block;
-
-  align-items: left;
+  display: flex;
+  align-items: center;
   background: linear-gradient(135deg, #34C759 0%, #4567b7 100%);
   color: #FFFFFF;
   padding: 10px;
@@ -19,12 +18,17 @@ header {
   width: 100%;
   z-index: 1000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin-right: 20px; /* Add this to create some space between the logo and the menu */
 }
 
 .logo h1 {
   font-size: 24px;
   font-weight: bold;
-  margin-right: 10px;
   margin-bottom: 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -50,8 +54,8 @@ nav {
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: space-between;
-
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 nav li {
