@@ -60,11 +60,15 @@ form button {
   cursor: pointer;
 }
 
-.contact-info {
+contact-info {
   margin-top: 30px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .contact-info h2 {
@@ -79,6 +83,15 @@ form button {
   margin-bottom: 10px;
   color: #666;
 }
+
+.contact-info > * {
+  margin-bottom: 20px;
+}
+
+.contact-info > *:last-child {
+  margin-bottom: 0;
+}
+
 
 @media (max-width: 768px) {
   .contact-info {
