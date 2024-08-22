@@ -6,6 +6,7 @@ body {
 
 header {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   background: linear-gradient(135deg, #34C759 0%, #4567b7 100%);
   color: #FFFFFF;
