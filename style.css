@@ -1,13 +1,35 @@
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+@media (max-width: 600px) {
+  header {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+@media (max-width: 600px) {
+  .hero img {
+    width: 100%;
+    height: 200px;
+  }
+}
+@media (max-width: 600px) {
+  .steps {
+    flex-direction: column;
+  }
+  .step {
+    margin-bottom: 20px;
+  }
+}
+  @media (max-width: 600px) {
+  body {
+    font-size: 14px;
+   
+  }
 }
 
+}
 body {
   font-family: 'Playfair Display', serif;
   background-image: linear-gradient(90deg, rgb(187, 187, 187), rgb(197, 197, 197));
+  font-size: 16px;
 }
 
 /* Header Styles */
