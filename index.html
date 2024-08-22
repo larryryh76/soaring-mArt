@@ -106,6 +106,34 @@ form button {
   }
 }
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: 25%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .gallery img {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .gallery img {
+    width: 100%;
+  }
+}
+
+
     </style>
 </head>
 <body>
