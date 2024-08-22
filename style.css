@@ -84,15 +84,21 @@ nav a:active {
   filter: blur(10px);
 }
 
+To make the text wider, you can adjust the top and left properties, and also add a width property to the .hero-text class. Here's an updated version:
+
+
 .hero-text {
   position: absolute;
-  top: 110%;
+  top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: #0022ff;
   transition: transform 0.5s ease;
+  width: 80%; /* Added width property */
+  padding: 20px; /* Added padding for better readability */
 }
+
 
 .hero-text:hover {
   transform: translate(-50%, -50%) scale(1.1);
