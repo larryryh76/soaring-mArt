@@ -170,19 +170,11 @@ nav a:active {
 .footer-container {
   background: linear-gradient(100deg, #4567b7 0%, #34C759 100%);
   width: 100%;
-  margin: 0; /* Add this line */
+  margin: 0 auto;
   padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-footer {
-  width: 100%;
-  background-color: #333;
-  padding: 20px 0;
-  display: flex;
-  justify-content: center;
 }
 
 footer ul {
@@ -190,13 +182,12 @@ footer ul {
   margin: 0;
   padding: 0;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 100%;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer li {
-  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 footer a {
@@ -211,6 +202,7 @@ footer a:hover {
 footer a:active {
   color: aqua;
 }
+
 .hero img:hover {
   filter: blur(0);
   transform: scale(1.05); /* reduced scale value for subtler effect */
