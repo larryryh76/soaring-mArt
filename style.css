@@ -5,6 +5,24 @@ body {
   margin: 0;
   padding: 0;
 }
+/* Small screens (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+  header {
+    height: 50px;
+    padding: 5px;
+    font-size: 14px;
+  }
+}
+
+/* Big screens (min-width: 1200px) */
+@media only screen and (min-width: 1200px) {
+  header {
+    height: 100px;
+    padding: 20px;
+    font-size: 24px;
+  }
+}
+
 
 }
 header {
