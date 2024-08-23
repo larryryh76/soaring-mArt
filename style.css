@@ -179,10 +179,11 @@ nav a:active {
   margin-bottom: 20px;
 }
 
+
 .footer-container {
   background: linear-gradient(100deg, #4567b7 0%, #34C759 100%);
   width: 100%;
-  margin: 0 auto;
+  margin: 0; /* Add this line */
   padding: 10px;
   display: flex;
   flex-direction: column;
