@@ -111,6 +111,19 @@ nav a:active {
   filter: blur(10px);
 }
 
+@media only screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column; /* Stack items vertically */
+  }
+  nav li {
+    margin-right: 0; /* Remove right margin */
+    margin-bottom: 10px; /* Add bottom margin */
+  }
+  nav a {
+    font-size: 14px; /* Reduce font size */
+  }
+}
+
 
 
 
