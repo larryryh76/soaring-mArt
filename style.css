@@ -43,7 +43,22 @@ header {
   max-width: 1200px;
   margin: 0 auto;
 }
+header nav ul li {
+  margin-bottom: 5px;
+}
 
+header nav a {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+  header nav ul li {
+    margin-bottom: 5px !important;
+  }
+  header nav a {
+    font-size: 12px !important;
+  }
+}
 .logo {
   margin-right: 20px; /* Add this to create some space between the logo and the menu */
 }
@@ -111,17 +126,6 @@ nav a:active {
   filter: blur(10px);
 }
 
-
-
-
-@media only screen and (max-width: 768px) {
-  nav ul li {
-    margin-bottom: 5px !important;
-  }
-  nav a {
-    font-size: 12px !important;
-  }
-}
 
 
 .hero-text {
