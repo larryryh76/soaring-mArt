@@ -114,19 +114,14 @@ nav a:active {
 
 
 @media only screen and (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-  }
-  nav li {
-    margin-right: 0;
-    margin-bottom: 5px; /* Reduce bottom margin */
+  nav ul li {
+    margin-bottom: 5px;
   }
   nav a {
-    font-size: 12px; /* Reduce font size */
-    line-height: 1.2; /* Adjust line height */
-    padding: 5px; /* Reduce padding */
+    font-size: 12px;
   }
 }
+
 
 
 
